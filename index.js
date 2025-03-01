@@ -14,7 +14,7 @@ JSON.parse(fs.readFileSync('genres.json')).forEach(function(genre) {
 });
 
 let years = [];
-for (let year = 2020; year <= 2023; year++)
+for (let year = 2020; year <= 2025; year++)
   years.push(year);
 
 invalid_genres = {};
